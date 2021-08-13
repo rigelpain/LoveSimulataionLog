@@ -86,7 +86,7 @@ function draw() {
 
     { from: 'sakurai', to: "itoh", label: "親友" },
 
-    { from: 'nanasaki', to: "tsukahara", label: "陸上部" },
+    { from: 'nanasaki', to: "tsukahara", label: "水泳部" },
 
 
 
