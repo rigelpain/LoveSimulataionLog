@@ -14,13 +14,14 @@ function draw() {
       title: "2年\n",
     },
     { id: "ayatsuji", shape: "circularImage", image: "./img/ayatsuji.jpg", label: "絢辻 詞", 
-      title: "2年\nクラス委員\n創設祭委員",
+      title: 
+      "2年\nクラス委員\n創設祭委員",
       color: {
         border: "#AACCEE",
       },
     },
     { id: "sakurai", shape: "circularImage", image: "./img/sakurai.jpg", label: "桜井 梨穂子", 
-      title: "2年",
+      title: "2年\n水泳が苦手\n母が冷え性",
       color: {
         border: "#EEAA99",
       },
@@ -31,8 +32,8 @@ function draw() {
         border: "#AACCAA",
       },
     },
-    { id: "nakata", shape: "circularImage", image: "./img/nakata.jpg", label: "中田 紗江", 
-      title: "1年",
+    { id: "nakata", shape: "circularImage", image: "./img/nakata.jpg", label: "中多 紗江", 
+      title: "1年\nサラダサンドと牛乳\nコンビニのおでんが好き\n交際経験なし\n",
       color: {
         border: "#EE9999",
       },
@@ -49,14 +50,20 @@ function draw() {
         border: "#AA99EE",
       },
     },
-    { id: "miya", shape: "circularImage", image: "./img/miya.jpg", label: "小林 美也", },
+    { id: "miya", shape: "circularImage", image: "./img/miya.jpg", label: "小林 美也",
+      title: "1年"
+    },
     { id: "takahashi", shape: "circularImage", image: "./img/takahashi.jpg", label: "高橋 麻耶", 
       title: "20代後半"
     },
-    { id: "umehara", shape: "circularImage", image: "./img/umehara.jpg", label: "梅原 正吉", },
+    { id: "umehara", shape: "circularImage", image: "./img/umehara.jpg", label: "梅原 正吉", 
+      title: "2年"
+    },
     { id: "itoh", shape: "circularImage", image: "./img/itoh.jpg", label: "伊藤 香苗", },
     { id: "tanaka", shape: "circularImage", image: "./img/tanaka.jpg", label: "田中 恵子", },
-    { id: "tsukahara", shape: "circularImage", image: "./img/tsukahara.jpg", label: "塚原 響", },
+    { id: "tsukahara", shape: "circularImage", image: "./img/tsukahara.jpg", label: "塚原 響", 
+      title: "3年"
+    },
     { id: "sosetsu-sai", shape: "circularImage", image: "missing.png", label: "創設祭",
       title: "12/24\n文化祭"
     },
