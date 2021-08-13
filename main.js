@@ -10,21 +10,49 @@ function draw() {
   // value corresponds with the age of the person
   var DIR = "../img/indonesia/";
   nodes = [
-    { id: "kobayashi", shape: "circularImage", image: "./img/meow.jpg", label: "小林 陽昭", 
+    { id: "kobayashi", shape: "circularImage", image: "missing.png", label: "小林 陽昭", 
       title: "2年\n",
     },
     { id: "ayatsuji", shape: "circularImage", image: "./img/ayatsuji.jpg", label: "絢辻 詞", 
-      title: "2年\nクラス委員\n創設祭委員"
+      title: "2年\nクラス委員\n創設祭委員",
+      color: {
+        border: "#AACCEE",
+      },
     },
-    { id: "sakurai", shape: "circularImage", image: "./img/sakurai.jpg", label: "桜井 梨穂子", },
-    { id: "tanamachi", shape: "circularImage", image: "./img/tanamachi.jpg", label: "棚町 薫", },
-    { id: "nakata", shape: "circularImage", image: "./img/nakata.jpg", label: "中田 紗江", },
-    { id: "nanasaki", shape: "circularImage", image: "./img/nanasaki.jpg", label: "七咲 逢", },
+    { id: "sakurai", shape: "circularImage", image: "./img/sakurai.jpg", label: "桜井 梨穂子", 
+      title: "2年",
+      color: {
+        border: "#EEAA99",
+      },
+    },
+    { id: "tanamachi", shape: "circularImage", image: "./img/tanamachi.jpg", label: "棚町 薫", 
+      title: "2年",
+      color: {
+        border: "#AACCAA",
+      },
+    },
+    { id: "nakata", shape: "circularImage", image: "./img/nakata.jpg", label: "中田 紗江", 
+      title: "1年",
+      color: {
+        border: "#EE9999",
+      },
+    },
+    { id: "nanasaki", shape: "circularImage", image: "./img/nanasaki.jpg", label: "七咲 逢",
+      title: "1年",
+      color: {
+        border: "#99BBEE",
+      },
+    },
     { id: "morishima", shape: "circularImage", image: "./img/morishima.jpg", label: "森嶋 はるか",
-      title: "3年"
+      title: "3年",
+      color: {
+        border: "#AA99EE",
+      },
     },
     { id: "miya", shape: "circularImage", image: "./img/miya.jpg", label: "小林 美也", },
-    { id: "takahashi", shape: "circularImage", image: "./img/takahashi.jpg", label: "高橋 麻耶", },
+    { id: "takahashi", shape: "circularImage", image: "./img/takahashi.jpg", label: "高橋 麻耶", 
+      title: "20代後半"
+    },
     { id: "umehara", shape: "circularImage", image: "./img/umehara.jpg", label: "梅原 正吉", },
     { id: "itoh", shape: "circularImage", image: "./img/itoh.jpg", label: "伊藤 香苗", },
     { id: "tanaka", shape: "circularImage", image: "./img/tanaka.jpg", label: "田中 恵子", },
@@ -92,11 +120,12 @@ function draw() {
         border: "#222222",
         background: "#666666",
       },
-      font: { color: "#AAAAAA" },
+      font: { color: "#666666" },
     },
     edges: {
       color: "lightgray",
       // arrows: 'to',
+      font: { color: "#AAAAAA" },
     },
   };
   network = new vis.Network(container, data, options);
